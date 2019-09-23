@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Questrial&display=swap");
+body,
+html {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: #282a2c;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+}
+
+body div#bg {
+  -webkit-clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0 100%);
+          clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0 100%);
+  background-color: #43474b;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+@media (min-width: 840px) {
+  h1 {
+    font-size: 5em;
+  }
+}
+
+p {
+  font-family: 'Questrial', sans-serif;
+  font-size: 1em;
+}
+
+@media (min-width: 840px) {
+  p {
+    font-size: 1.5em;
+  }
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 55% 30%;
+      grid-template-columns: 55% 30%;
+}
+
+.content {
+  margin: 60% 10px 0px 15%;
+  color: #fff;
+}
+
+@media (min-width: 840px) {
+  .content {
+    margin: 10% 10px 0px 15%;
+  }
+}
+
+svg {
+  width: 200px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  margin-left: 45%;
+}
+
+@media (min-width: 840px) {
+  svg {
+    width: 300px;
+  }
+}
+
+svg #Logo {
+  -webkit-animation-duration: 1.2s;
+          animation-duration: 1.2s;
+  -webkit-animation-name: animateLogo;
+          animation-name: animateLogo;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  mix-blend-mode: overlay;
+}
+
+@-webkit-keyframes animateLogo {
+  from {
+    -webkit-transform: translateX(0) translateY(0);
+            transform: translateX(0) translateY(0);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateX(25px) translateY(-23px);
+            transform: translateX(25px) translateY(-23px);
+    opacity: 1;
+  }
+}
+
+@keyframes animateLogo {
+  from {
+    -webkit-transform: translateX(0) translateY(0);
+            transform: translateX(0) translateY(0);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateX(25px) translateY(-23px);
+            transform: translateX(25px) translateY(-23px);
+    opacity: 1;
+  }
+}
+
+/* svg colors */
+.st0 {
+  fill: #EBEBEB;
+}
+
+.st1 {
+  fill: #456B85;
+}
+
+.st2 {
+  fill: #7ABDEB;
+}
+
+/* .st3{enable-background:new    ;} */
+.st4 {
+  fill: #476F8A;
+}
+
+.st5 {
+  fill: #5483A3;
+}
+
+.st6 {
+  fill: #527F9E;
+}
+
+.st7 {
+  fill: #4F7B99;
+}
+
+.st8 {
+  fill: #4D7794;
+}
+
+.st9 {
+  fill: #4A738F;
+}
+
+.st10 {
+  fill: #A3A3A3;
+}
+/*# sourceMappingURL=main.css.map */
